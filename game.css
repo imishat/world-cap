@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+/*---main section*/
+.container {
+    width: 1321px;
+    padding: 20px;
+
+
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.banner {
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    margin: 40px 0 0 0px;
+    border-radius: 10px;
+}
+
+.banner-text {
+    width: 70%;
+    color: #FFFFFF;
+    margin-left: 106px;
+}
+
+.banner-header {
+    width: 531px;
+    font-size: 3vw;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+.banner-button {
+    /* Width: 187px;
+    Height: 56px; */
+    padding: 10px;
+    margin-top: 20px;
+
+    text-decoration: none;
+    color: white;
+    background-color: #DD0000;
+
+}
+
+/* .banner-button, */
+.fa-arrow-right:hover {
+    width: 5px;
+    padding: 20px;
+}
+
+
+
+.fa-arrow-right {
+    margin: 10px;
+    transition: width 0.2s ease-in-out;
+
+}
+
+.banner-img {
+    /* width: 50%; */
+    width: 500px;
+    height: 700px;
+    padding: 30px;
+    margin-top: 520px;
+}
+
+.blog-content {
+    display: flex;
+}
+
+.menu {
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.menu-item {
+    background-color: #FFFFFF;
+    margin: 30px;
+    border-radius: 5px;
+    padding: 10px 60px;
+    text-align: center;
+}
+
+.menu-item a {
+    text-decoration: none;
+
+}
+
+
+
+.germany-france {
+    display: flex;
+}
+/*---upcaming match*/
+
+
+.upcoming-match {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+
+
+}
+
+.match {
+    margin: 20px;
+    width: 250px;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid gray;
+
+}
+
+.match-heading {
+    text-align: center;
+    margin: 15px;
+}
+
+h3 {
+    margin: 10px;
+}
+
+/*----footer part*/
+
+
+.end{
+    background-color: rgb(223, 43, 43);
+    color: #fff;
+    text-align: center;
+    height: 50vh;
+}
+.system a{
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 15px;
+}
+.icon{
+    font-size: 30px;
+    padding: 20px;
+}
+/*-  media screen  --*/
+    
+/*======small divce*/
+@media only screen and (max-width:576px) {
+    main{
+        color: rgb(229, 18, 18);
+    }
+    .banner{
+        color: #DD0000;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
